@@ -1,0 +1,6 @@
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.csprojResolveAssemblyReference.cache
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.csproj.CoreCompileInputs.cache
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\bin\Debug\GerenciadorFC.Contabilidade.Dominio.dll
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\bin\Debug\GerenciadorFC.Contabilidade.Dominio.pdb
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.dll
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.pdb

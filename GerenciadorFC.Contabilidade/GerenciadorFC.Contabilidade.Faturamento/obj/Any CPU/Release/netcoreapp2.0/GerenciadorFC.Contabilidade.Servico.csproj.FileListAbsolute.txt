@@ -1,0 +1,13 @@
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.deps.json
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.runtimeconfig.json
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.runtimeconfig.dev.json
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.dll
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.pdb
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Dominio.dll
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Dominio.pdb
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.csprojResolveAssemblyReference.cache
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.csproj.CoreCompileInputs.cache
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.AssemblyInfoInputs.cache
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.AssemblyInfo.cs
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.dll
+c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Any CPU\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.pdb
