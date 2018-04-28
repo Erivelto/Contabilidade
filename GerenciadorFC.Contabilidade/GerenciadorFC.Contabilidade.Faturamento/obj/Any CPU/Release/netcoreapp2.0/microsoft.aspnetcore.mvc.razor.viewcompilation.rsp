@@ -1,5 +1,5 @@
-c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento
 --output-path=obj\Any CPU\Release\netcoreapp2.0\
 --application-name=GerenciadorFC.Contabilidade.Servico
---content-root=c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento
+--content-root=C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento
 --file=
