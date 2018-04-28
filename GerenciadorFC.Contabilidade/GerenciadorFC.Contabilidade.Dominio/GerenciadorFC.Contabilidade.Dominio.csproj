@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAS\Implementacao\AnexoContribuinte.cs" />
+    <Compile Include="DAS\Implementacao\DadosDeDAS.cs" />
+    <Compile Include="DAS\Implementacao\HistoricoDAS.cs" />
     <Compile Include="Faturamento\Implementacao\CorpoEmissaoNota.cs" />
     <Compile Include="Faturamento\Implementacao\DadosEmissaoNota.cs" />
     <Compile Include="Faturamento\Implementacao\NotaFiscal.cs" />
@@ -47,5 +50,6 @@
     <Compile Include="Faturamento\Implementacao\TomadorEmissaoNota.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

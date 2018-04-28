@@ -13265,11 +13265,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\fabio\\source\\repos\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\GerenciadorFC.Contabilidade.Servico.csproj",
+      "projectUniqueName": "C:\\Main\\Contabilidade\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\GerenciadorFC.Contabilidade.Servico.csproj",
       "projectName": "GerenciadorFC.Contabilidade.Servico",
-      "projectPath": "c:\\users\\fabio\\source\\repos\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\GerenciadorFC.Contabilidade.Servico.csproj",
+      "projectPath": "C:\\Main\\Contabilidade\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\GerenciadorFC.Contabilidade.Servico.csproj",
       "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\fabio\\source\\repos\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\obj\\",
+      "outputPath": "C:\\Main\\Contabilidade\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Faturamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13288,8 +13288,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\users\\fabio\\source\\repos\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Dominio\\GerenciadorFC.Contabilidade.Dominio.csproj": {
-              "projectPath": "c:\\users\\fabio\\source\\repos\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Dominio\\GerenciadorFC.Contabilidade.Dominio.csproj"
+            "C:\\Main\\Contabilidade\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Dominio\\GerenciadorFC.Contabilidade.Dominio.csproj": {
+              "projectPath": "C:\\Main\\Contabilidade\\GerenciadorFC.Contabilidade\\GerenciadorFC.Contabilidade.Dominio\\GerenciadorFC.Contabilidade.Dominio.csproj"
             }
           }
         }

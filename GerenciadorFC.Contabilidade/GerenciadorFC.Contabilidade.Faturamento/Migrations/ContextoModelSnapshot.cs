@@ -20,6 +20,102 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.AnexoContribuinte", b =>
+                {
+                    b.Property<int>("Codigo")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Anexo");
+
+                    b.Property<int>("CodigoDadosDeDAS");
+
+                    b.Property<int?>("DadosDeDASCodigo");
+
+                    b.Property<bool>("Excluido")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
+
+                    b.HasKey("Codigo");
+
+                    b.HasIndex("DadosDeDASCodigo");
+
+                    b.ToTable("AnexoContribuinte");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.DadosDeDAS", b =>
+                {
+                    b.Property<int>("Codigo")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CNPJ");
+
+                    b.Property<string>("CPF");
+
+                    b.Property<string>("CodigoAntiCaptcha")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<string>("CodigoContribuite")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<int>("CodigoPessoa");
+
+                    b.Property<bool>("Excluido")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
+                    b.Property<string>("ValorTributado")
+                        .IsRequired()
+                        .HasMaxLength(30);
+
+                    b.Property<string>("anoApuracao")
+                        .IsRequired()
+                        .HasMaxLength(10);
+
+                    b.Property<string>("mesApuracao")
+                        .IsRequired()
+                        .HasMaxLength(2);
+
+                    b.HasKey("Codigo");
+
+                    b.ToTable("DadosDeDAS");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.HistoricoDAS", b =>
+                {
+                    b.Property<int>("Codigo")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CodigoAnexo");
+
+                    b.Property<int>("CodigoPessoa");
+
+                    b.Property<DateTime>("DataGeracao");
+
+                    b.Property<int>("DiaGeracao");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<bool>("Excluido")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.HasKey("Codigo");
+
+                    b.ToTable("HistoricoDAS");
+                });
+
             modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao.CorpoEmissaoNota", b =>
                 {
                     b.Property<int>("Codigo")
@@ -175,6 +271,13 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
                     b.HasKey("Codigo");
 
                     b.ToTable("TomadorEmissaoNota");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.AnexoContribuinte", b =>
+                {
+                    b.HasOne("GerenciadorFC.Contabilidade.Dominio.DAS.DadosDeDAS")
+                        .WithMany("Anexo")
+                        .HasForeignKey("DadosDeDASCodigo");
                 });
 
             modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao.PessoaCodigoServico", b =>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao;
+using GerenciadorFC.Contabilidade.Dominio.DAS;
 
 namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 {
@@ -10,7 +11,9 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		public DbSet<NotaFiscal> NotaFiscal { get; set; }
 		public DbSet<TomadorEmissaoNota> TomadorEmissaoNota { get; set; }
 		public DbSet<PessoaCodigoServico> PessoaCodigoServico { get; set; }
-
+		public DbSet<HistoricoDAS> HistoricoDAS { get; set; }
+		public DbSet<DadosDeDAS> DadosDeDAS { get; set; }
+		public DbSet<AnexoContribuinte> AnexoContribuinte { get; set; }
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer(@"Server=tcp:gerenciadorbilhetagem.database.windows.net,1433;Initial Catalog=dbContabilidade; Uid=fabioesimoes; Pwd=q1w2e3r4@;");
@@ -63,7 +66,30 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 			modelBuilder.Entity<NotaFiscal>().Property(p => p.UrlNfe).IsRequired().HasMaxLength(200); 
 			modelBuilder.Entity<NotaFiscal>().Property(p => p.Excluido).HasDefaultValue(false);
 
-	
+			//HistoricoDAS
+			modelBuilder.Entity<HistoricoDAS>().HasKey(t => t.Codigo);
+			modelBuilder.Entity<HistoricoDAS>().Property(p => p.CodigoPessoa).IsRequired();
+			modelBuilder.Entity<HistoricoDAS>().Property(p => p.CodigoAnexo).IsRequired();			
+			modelBuilder.Entity<HistoricoDAS>().Property(p => p.Email).IsRequired().HasMaxLength(50);
+			modelBuilder.Entity<HistoricoDAS>().Property(p => p.Status).IsRequired().HasMaxLength(50);
+			modelBuilder.Entity<HistoricoDAS>().Property(p => p.Excluido).HasDefaultValue(false);
+
+			//DadosDeDAS
+			modelBuilder.Entity<DadosDeDAS>().HasKey(t => t.Codigo);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.CodigoPessoa).IsRequired();
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.CodigoAntiCaptcha).IsRequired().HasMaxLength(50);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.CodigoContribuite).IsRequired().HasMaxLength(50);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.anoApuracao).IsRequired().HasMaxLength(10); 
+		    modelBuilder.Entity<DadosDeDAS>().Property(p => p.ValorTributado).IsRequired().HasMaxLength(30);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.mesApuracao).IsRequired().HasMaxLength(2);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.Url).IsRequired().HasMaxLength(100);
+			modelBuilder.Entity<DadosDeDAS>().Property(p => p.Excluido).HasDefaultValue(false);
+
+			//AnexoContribuinte
+			modelBuilder.Entity<AnexoContribuinte>().HasKey(t => t.Codigo);
+			modelBuilder.Entity<AnexoContribuinte>().Property(p => p.CodigoDadosDeDAS).IsRequired();
+			modelBuilder.Entity<AnexoContribuinte>().Property(p => p.Excluido).HasDefaultValue(false);
+
 		}
 	}
 }

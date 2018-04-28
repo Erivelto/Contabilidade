@@ -4,3 +4,9 @@ c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilid
 c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\bin\Debug\GerenciadorFC.Contabilidade.Dominio.pdb
 c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.dll
 c:\users\fabio\source\repos\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\bin\Debug\GerenciadorFC.Contabilidade.Dominio.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\bin\Debug\GerenciadorFC.Contabilidade.Dominio.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.csprojResolveAssemblyReference.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.csproj.CoreCompileInputs.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Dominio\obj\Debug\GerenciadorFC.Contabilidade.Dominio.pdb
