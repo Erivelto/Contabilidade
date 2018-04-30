@@ -34,7 +34,7 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		}
 		public DadosEmissaoNota ObterPorCodigo(int codigo)
 		{
-			return ctx.Set<DadosEmissaoNota>().Where(x => x.Codigo == codigo && x.Excluido == false).FirstOrDefault();
+			return ctx.Set<DadosEmissaoNota>().Where(x => x.CodigoPessoa == codigo && x.Excluido == false).FirstOrDefault();
 		}
 	}
 }
