@@ -23,7 +23,7 @@ namespace GerenciadorFC.Contabilidade.Servico.Controllers
 			return pessoaCodigoServico;
 		}
 		[HttpGet("{codigo}")]
-		public PessoaCodigoServico Get(int codigo)
+		public List<PessoaCodigoServico> Get(int codigo)
 		{
 			return _repositorio.ObterPorCodigo(codigo);
 		}
