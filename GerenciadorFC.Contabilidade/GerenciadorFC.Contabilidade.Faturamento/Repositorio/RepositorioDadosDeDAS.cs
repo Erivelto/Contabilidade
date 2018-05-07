@@ -36,7 +36,7 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		}
 		public DadosDeDAS ObterPorCodigo(int codigo)
 		{
-			return ctx.Set<DadosDeDAS>().Where(x => x.Codigo == codigo && x.Excluido == false).FirstOrDefault();
+			return ctx.Set<DadosDeDAS>().Where(x => x.CodigoPessoa == codigo && x.Excluido == false).FirstOrDefault();
 		}
 	}
 }
