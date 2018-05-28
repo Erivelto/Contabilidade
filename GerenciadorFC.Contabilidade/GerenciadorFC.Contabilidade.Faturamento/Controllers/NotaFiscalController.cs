@@ -26,10 +26,10 @@ namespace GerenciadorFC.Contabilidade.Servico.Controllers
 			_repositorio.Atualizar(notaFiscal);
 			return notaFiscal;
 		}
-		[HttpGet("{codigo}")]
-		public NotaFiscal Get(int codigo)
+		[HttpGet("{numeroNFE}")]
+		public NotaFiscal Get(int numeroNFE)
 		{
-			return _repositorio.ObterPorCodigo(codigo);
+			return _repositorio.ObterPorCodigo(numeroNFE);
 		}
 		[HttpGet]
 		public List<NotaFiscal> Get()

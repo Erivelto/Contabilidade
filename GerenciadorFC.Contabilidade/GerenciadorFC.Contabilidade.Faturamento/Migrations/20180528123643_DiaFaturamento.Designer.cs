@@ -11,9 +11,10 @@ using System;
 namespace GerenciadorFC.Contabilidade.Servico.Migrations
 {
     [DbContext(typeof(Contexto))]
-    partial class ContextoModelSnapshot : ModelSnapshot
+    [Migration("20180528123643_DiaFaturamento")]
+    partial class DiaFaturamento
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -12,5 +12,6 @@ namespace GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao
 		public int CodigoEmissaoNota { get; set; }
 		public string Descricao { get; set; }
 		public string Valor { get; set; } 
+		public int DiaEmissao { get; set; }
 	}
 }

@@ -32,9 +32,9 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		{
 			return ctx.Set<NotaFiscal>().Where(c => c.Excluido == false).ToList();
 		}
-		public NotaFiscal ObterPorCodigo(int codigo)
+		public NotaFiscal ObterPorCodigo(int numeroNFE)
 		{
-			return ctx.Set<NotaFiscal>().Where(x => x.Codigo == codigo && x.Excluido == false).FirstOrDefault();
+			return ctx.Set<NotaFiscal>().Where(x => x.NumeroNFE == numeroNFE && x.Excluido == false).FirstOrDefault();
 		}
 	}
 }

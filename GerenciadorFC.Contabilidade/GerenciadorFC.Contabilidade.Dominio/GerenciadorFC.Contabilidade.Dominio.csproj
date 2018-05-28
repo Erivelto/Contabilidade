@@ -47,6 +47,8 @@
     <Compile Include="Faturamento\Implementacao\DadosEmissaoNota.cs" />
     <Compile Include="Faturamento\Implementacao\NotaFiscal.cs" />
     <Compile Include="Faturamento\Implementacao\PessoaCodigoServico.cs" />
+    <Compile Include="Faturamento\Implementacao\Prestador.cs" />
+    <Compile Include="Faturamento\Implementacao\Tomador.cs" />
     <Compile Include="Faturamento\Implementacao\TomadorEmissaoNota.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
