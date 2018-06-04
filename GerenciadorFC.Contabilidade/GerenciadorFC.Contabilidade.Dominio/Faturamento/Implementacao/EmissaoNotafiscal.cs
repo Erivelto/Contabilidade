@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao
+﻿namespace GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao
 {
-	class EmissaoNotafiscal
+	public class EmissaoNotafiscal
 	{
+		public Prestador Prestador { get; set; }
+		public Tomador Tomador { get; set; }
 	}
 }

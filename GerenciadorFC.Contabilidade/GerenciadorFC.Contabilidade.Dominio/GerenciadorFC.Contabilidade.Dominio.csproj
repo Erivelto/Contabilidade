@@ -45,6 +45,7 @@
     <Compile Include="DAS\Implementacao\HistoricoDAS.cs" />
     <Compile Include="Faturamento\Implementacao\CorpoEmissaoNota.cs" />
     <Compile Include="Faturamento\Implementacao\DadosEmissaoNota.cs" />
+    <Compile Include="Faturamento\Implementacao\EmissaoNotafiscal.cs" />
     <Compile Include="Faturamento\Implementacao\NotaFiscal.cs" />
     <Compile Include="Faturamento\Implementacao\PessoaCodigoServico.cs" />
     <Compile Include="Faturamento\Implementacao\Prestador.cs" />
