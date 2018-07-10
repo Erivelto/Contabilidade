@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorFC.Contabilidade.Servico", "GerenciadorFC.Contabilidade.Faturamento\GerenciadorFC.Contabilidade.Servico.csproj", "{F9843CD3-BEDD-4DE9-B762-46153E33516B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorFC.Contabilidade.Servico", "GerenciadorFC.Contabilidade.Faturamento\GerenciadorFC.Contabilidade.Servico.csproj", "{F9843CD3-BEDD-4DE9-B762-46153E33516B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorFC.Contabilidade.Dominio", "GerenciadorFC.Contabilidade.Dominio\GerenciadorFC.Contabilidade.Dominio.csproj", "{571FDB6C-FFDA-4F7C-9D6C-93C2C884A9D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorFC.Contabilidade.Crawler", "GerenciadorFC.Contabilidade.Crawler\GerenciadorFC.Contabilidade.Crawler.csproj", "{910D57D4-FBDE-4D52-BDF7-9F47040814A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolveCaptcha", "ResolveCaptcha\ResolveCaptcha.csproj", "{9CFAD50B-B3FF-4B9B-AE04-3E8162737E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{571FDB6C-FFDA-4F7C-9D6C-93C2C884A9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571FDB6C-FFDA-4F7C-9D6C-93C2C884A9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571FDB6C-FFDA-4F7C-9D6C-93C2C884A9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910D57D4-FBDE-4D52-BDF7-9F47040814A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910D57D4-FBDE-4D52-BDF7-9F47040814A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910D57D4-FBDE-4D52-BDF7-9F47040814A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910D57D4-FBDE-4D52-BDF7-9F47040814A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFAD50B-B3FF-4B9B-AE04-3E8162737E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFAD50B-B3FF-4B9B-AE04-3E8162737E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFAD50B-B3FF-4B9B-AE04-3E8162737E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFAD50B-B3FF-4B9B-AE04-3E8162737E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

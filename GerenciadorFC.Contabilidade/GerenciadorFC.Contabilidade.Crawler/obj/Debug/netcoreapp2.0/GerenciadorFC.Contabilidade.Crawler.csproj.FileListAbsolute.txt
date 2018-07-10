@@ -1,0 +1,14 @@
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.csprojResolveAssemblyReference.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.csproj.CoreCompileInputs.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.AssemblyInfoInputs.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.AssemblyInfo.cs
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.xml
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.deps.json
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Dominio.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Dominio.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\obj\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\ResolveCaptcha.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Crawler\bin\Debug\netcoreapp2.0\ResolveCaptcha.pdb

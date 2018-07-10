@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciadorFC.Contabilidade.Dominio\GerenciadorFC.Contabilidade.Dominio.csproj" />
+    <ProjectReference Include="..\ResolveCaptcha\ResolveCaptcha.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Anticaptcha_example">
+      <HintPath>antiCaptcha\bin\Debug\Anticaptcha_example.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

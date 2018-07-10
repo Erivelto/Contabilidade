@@ -1,0 +1,16 @@
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.exe.config
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.exe
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.pdb
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.csprojResolveAssemblyReference.cache
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.exe
+C:\Users\fabio\Documents\GitHub\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.pdb
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.exe.config
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.exe
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Anticaptcha_example.pdb
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Newtonsoft.Json.dll
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\bin\Debug\Newtonsoft.Json.xml
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.csprojResolveAssemblyReference.cache
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.exe
+C:\GerenciadorFC\src\Servico\GerenciadoFC.Crawler\antiCaptcha\obj\Debug\Anticaptcha_example.pdb

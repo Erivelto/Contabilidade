@@ -275,6 +275,38 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
                     b.ToTable("TomadorEmissaoNota");
                 });
 
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Transacao.HistoricoTransacao", b =>
+                {
+                    b.Property<int>("Codigo")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CodigoHistorico");
+
+                    b.Property<DateTime>("Data");
+
+                    b.Property<string>("Erro");
+
+                    b.Property<string>("Mensagem");
+
+                    b.Property<bool>("Sucesso");
+
+                    b.HasKey("Codigo");
+
+                    b.ToTable("HistoricoTransacao");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Transacao.Transacao", b =>
+                {
+                    b.Property<int>("CodigoTransacao")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nome");
+
+                    b.HasKey("CodigoTransacao");
+
+                    b.ToTable("Transacao");
+                });
+
             modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.AnexoContribuinte", b =>
                 {
                     b.HasOne("GerenciadorFC.Contabilidade.Dominio.DAS.DadosDeDAS")

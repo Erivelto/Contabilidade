@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao;
 using GerenciadorFC.Contabilidade.Dominio.DAS;
+using GerenciadorFC.Contabilidade.Dominio.Transacao;
 
 namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 {
@@ -14,6 +15,9 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		public DbSet<HistoricoDAS> HistoricoDAS { get; set; }
 		public DbSet<DadosDeDAS> DadosDeDAS { get; set; }
 		public DbSet<AnexoContribuinte> AnexoContribuinte { get; set; }
+		public DbSet<Transacao> Transacao { get; set; }
+		public DbSet<HistoricoTransacao> HistoricoTransacao { get; set; }
+
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer(@"Server=tcp:gerenciadorbilhetagem.database.windows.net,1433;Initial Catalog=dbContabilidade; Uid=fabioesimoes; Pwd=q1w2e3r4@;");
@@ -89,6 +93,11 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 			modelBuilder.Entity<AnexoContribuinte>().HasKey(t => t.Codigo);
 			modelBuilder.Entity<AnexoContribuinte>().Property(p => p.CodigoDadosDeDAS).IsRequired();
 			modelBuilder.Entity<AnexoContribuinte>().Property(p => p.Excluido).HasDefaultValue(false);
+
+			//transacao
+			modelBuilder.Entity<Transacao>().HasKey(t => t.CodigoTransacao);
+
+			modelBuilder.Entity<HistoricoTransacao>().HasKey(h => h.Codigo);
 
 		}
 	}

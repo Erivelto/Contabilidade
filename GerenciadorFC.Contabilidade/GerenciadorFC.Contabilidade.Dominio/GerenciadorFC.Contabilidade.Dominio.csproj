@@ -52,6 +52,8 @@
     <Compile Include="Faturamento\Implementacao\Tomador.cs" />
     <Compile Include="Faturamento\Implementacao\TomadorEmissaoNota.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transacao\HistoricoTransacao.cs" />
+    <Compile Include="Transacao\Transacao.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -34,9 +34,16 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		{
 			return ctx.Set<DadosDeDAS>().Where(c => c.Excluido == false).ToList();
 		}
+		public List<DadosDeDAS> ObterListaDas()
+		{
+			var historico = ctx.Set<HistoricoDAS>().Where(c => c.Excluido == false).Select(c => c.CodigoPessoa).ToList();
+
+			return ctx.Set<DadosDeDAS>().Where(c => c.Excluido == false && !c.CodigoPessoa.Equals(historico)).ToList();
+		}
 		public DadosDeDAS ObterPorCodigo(int codigo)
 		{
 			return ctx.Set<DadosDeDAS>().Where(x => x.CodigoPessoa == codigo && x.Excluido == false).FirstOrDefault();
 		}
+		 
 	}
 }

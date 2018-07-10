@@ -1,0 +1,9 @@
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\bin\Debug\netcoreapp2.0\ResolveCaptcha.deps.json
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\bin\Debug\netcoreapp2.0\ResolveCaptcha.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.csprojResolveAssemblyReference.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.csproj.CoreCompileInputs.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.AssemblyInfoInputs.cache
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.AssemblyInfo.cs
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\bin\Debug\netcoreapp2.0\ResolveCaptcha.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Debug\netcoreapp2.0\ResolveCaptcha.pdb
