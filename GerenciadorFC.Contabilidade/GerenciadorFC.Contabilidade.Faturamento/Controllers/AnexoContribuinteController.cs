@@ -31,6 +31,11 @@ namespace GerenciadorFC.Contabilidade.Servico.Controllers
 		{
 			return _repositorio.ObterPorCodigo(codigo);
 		}
+		[HttpGet("ListaPorCodigoDAS/{codigo}")]
+		public List<AnexoContribuinte> GetListaAnexo(int codigo)
+		{			
+			return _repositorio.ObterListaAnexo(codigo);
+		}
 		[HttpGet]
 		public List<AnexoContribuinte> Get()
 		{

@@ -11,3 +11,7 @@ C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Fa
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.AssemblyInfo.cs
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.dll
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\obj\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Servico.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Release\netcoreapp2.0\ResolveCaptcha.dll
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Release\netcoreapp2.0\GerenciadorFC.Contabilidade.Crawler.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\GerenciadorFC.Contabilidade.Faturamento\bin\Release\netcoreapp2.0\ResolveCaptcha.pdb

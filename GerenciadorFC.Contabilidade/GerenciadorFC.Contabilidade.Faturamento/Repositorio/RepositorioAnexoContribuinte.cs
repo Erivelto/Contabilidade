@@ -34,6 +34,10 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		{
 			return ctx.Set<AnexoContribuinte>().Where(c => c.Excluido == false).ToList();
 		}
+		public List<AnexoContribuinte> ObterListaAnexo(int codigo)
+		{
+			return ctx.Set<AnexoContribuinte>().Where(c => c.Excluido == false && c.CodigoDadosDeDAS == codigo).ToList();
+		}
 		public AnexoContribuinte ObterPorCodigo(int codigo)
 		{
 			return ctx.Set<AnexoContribuinte>().Where(x => x.Codigo == codigo && x.Excluido == false).FirstOrDefault();
