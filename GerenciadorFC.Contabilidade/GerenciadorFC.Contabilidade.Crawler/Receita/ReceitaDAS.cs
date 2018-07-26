@@ -14,7 +14,13 @@ namespace GerenciadorFC.Contabilidade.Crawler.Receita
     {
 		public void EmissorImpostos(DadosDeDAS dados,string email)
 		{
-			IWebDriver driver = new ChromeDriver(@"C:\Users\fabio\.nuget\packages\Selenium.Chrome.WebDriver\2.33.0\driver");
+
+			var chromeOptions = new ChromeOptions
+			{
+				BinaryLocation = @"C:\	Users\fabio\.nuget\packages\Selenium.Chrome.WebDriver\2.33.0\driver",
+			};
+			chromeOptions.AddArguments("headless");
+			IWebDriver driver = new ChromeDriver(chromeOptions);
 			driver.Navigate().GoToUrl(dados.Url);
 
 			var cnpj = driver.FindElement(By.Id("ctl00_ContentPlaceHolder_txtCNPJ"));
