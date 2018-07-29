@@ -32,9 +32,9 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		{
 			return ctx.Set<TomadorEmissaoNota>().Where(c => c.Excluido == false).ToList();
 		}
-		public TomadorEmissaoNota ObterPorCodigo(int codigo)
+		public List<TomadorEmissaoNota> ObterPorCodigo(int codigo)
 		{
-			return ctx.Set<TomadorEmissaoNota>().Where(x => x.Codigo == codigo && x.Excluido == false).FirstOrDefault();
+			return ctx.Set<TomadorEmissaoNota>().Where(x => x.CodigoEmissaoNota == codigo && x.Excluido == false).ToList();
 		}
 	}
 }

@@ -23,7 +23,7 @@ namespace GerenciadorFC.Contabilidade.Servico.Controllers
 			return tomadorEmissaoNota;
 		}
 		[HttpGet("{codigo}")]
-		public TomadorEmissaoNota Get(int codigo)
+		public List<TomadorEmissaoNota> Get(int codigo)
 		{
 			return _repositorio.ObterPorCodigo(codigo);
 		}
