@@ -11,8 +11,8 @@ using System;
 namespace GerenciadorFC.Contabilidade.Servico.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20180709170846_Transacao")]
-    partial class Transacao
+    [Migration("20180822005056_novo")]
+    partial class novo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -124,14 +124,22 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
 
                     b.Property<int>("CodigoEmissaoNota");
 
+                    b.Property<int>("CodigoPessoa");
+
+                    b.Property<string>("CodigoServico");
+
+                    b.Property<int>("CodigoTomador");
+
+                    b.Property<DateTime>("DataPrimeiraEmissao");
+
                     b.Property<string>("Descricao")
                         .IsRequired();
-
-                    b.Property<int>("DiaEmissao");
 
                     b.Property<string>("Valor")
                         .IsRequired()
                         .HasMaxLength(20);
+
+                    b.Property<bool>("repetir");
 
                     b.HasKey("Codigo");
 

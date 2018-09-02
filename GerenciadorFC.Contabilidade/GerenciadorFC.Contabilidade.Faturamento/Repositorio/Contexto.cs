@@ -59,11 +59,15 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 
 			//CorpoEmissaoNota
 			modelBuilder.Entity<CorpoEmissaoNota>().HasKey(t => t.Codigo);
-			modelBuilder.Entity<CorpoEmissaoNota>().Property(p => p.CodigoEmissaoNota).IsRequired();
-			modelBuilder.Entity<CorpoEmissaoNota>().Property(p => p.Descricao).IsRequired();
-			modelBuilder.Entity<CorpoEmissaoNota>().Property(p => p.Valor).IsRequired().HasMaxLength(20);
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.CodigoPessoa).IsRequired();
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.CodigoTomador).IsRequired();
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.repetir).IsRequired();
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.Descricao).IsRequired();
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.Valor).IsRequired().HasMaxLength(20);
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(t => t.DataPrimeiraEmissao).IsRequired();
+			modelBuilder.Entity<CorpoEmissaoNota>().Property(p => p.Excluido).HasDefaultValue(false);
 
-			//NotaFiscal
+			//NotaFiscalCorpoEmissaoNota
 			modelBuilder.Entity<NotaFiscal>().HasKey(t => t.Codigo);
 			modelBuilder.Entity<NotaFiscal>().Property(p => p.CodigoPessoa).IsRequired();
 			modelBuilder.Entity<NotaFiscal>().Property(p => p.CodigoVerificacao).IsRequired().HasMaxLength(20); 

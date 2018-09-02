@@ -10,8 +10,13 @@ namespace GerenciadorFC.Contabilidade.Dominio.Faturamento.Implementacao
 	{
 		public int Codigo { get; set; }
 		public int CodigoEmissaoNota { get; set; }
+		public int CodigoPessoa { get; set; }
+		public int CodigoTomador { get; set; }
 		public string Descricao { get; set; }
 		public string Valor { get; set; } 
-		public int DiaEmissao { get; set; }
+		public DateTime DataPrimeiraEmissao { get; set; }
+		public bool repetir { get; set; }
+		public string CodigoServico { get; set; }
+		public bool Excluido { get; set; }
 	}
 }

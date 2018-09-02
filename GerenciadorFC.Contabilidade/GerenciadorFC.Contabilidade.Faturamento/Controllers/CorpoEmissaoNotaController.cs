@@ -27,10 +27,22 @@ namespace GerenciadorFC.Contabilidade.Servico.Controllers
 		{
 			return _repositorio.ObterPorCodigo(codigo);
 		}
+		[HttpDelete("{codigo}")]
+		public ActionResult Delete(int codigo)
+		{
+			_repositorio.Excluir(codigo);
+			return Ok();
+		}
+		[HttpGet("Agendamento/{codigoPessoa}")]
+		public List<CorpoEmissaoNota> GetList(int codigoPessoa)
+		{
+			return _repositorio.ObterLista(codigoPessoa);
+		}
 		[HttpGet]
 		public List<CorpoEmissaoNota> Get()
 		{
 			return _repositorio.ObterLista();
 		}
+
 	}
 }

@@ -24,9 +24,20 @@ namespace GerenciadorFC.Contabilidade.Servico.Repositorio
 		{
 			return ctx.Set<CorpoEmissaoNota>().ToList();
 		}
+		public List<CorpoEmissaoNota> ObterLista(int CodigoPessoa)
+		{
+			return ctx.Set<CorpoEmissaoNota>().Where(x => x.CodigoPessoa == CodigoPessoa && x.Excluido == false).ToList();
+		}
 		public CorpoEmissaoNota ObterPorCodigo(int codigo)
 		{
 			return ctx.Set<CorpoEmissaoNota>().Where(x => x.Codigo == codigo).FirstOrDefault();
+		}
+		public void Excluir(int codigo)
+		{
+			var remove = ctx.CorpoEmissaoNota.Where(c => c.Codigo == codigo).FirstOrDefault();
+			remove.Excluido = true;
+			ctx.Entry(remove).State = EntityState.Modified;
+			ctx.SaveChanges();
 		}
 	}
 }

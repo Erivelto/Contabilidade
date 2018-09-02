@@ -4,21 +4,21 @@ using System.Collections.Generic;
 
 namespace GerenciadorFC.Contabilidade.Servico.Migrations
 {
-    public partial class DiaFaturamento : Migration
+    public partial class ecluidor : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "DiaEmissao",
+            migrationBuilder.AddColumn<bool>(
+                name: "Excluido",
                 table: "CorpoEmissaoNota",
                 nullable: false,
-                defaultValue: 0);
+                defaultValue: false);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "DiaEmissao",
+                name: "Excluido",
                 table: "CorpoEmissaoNota");
         }
     }

@@ -11,8 +11,8 @@ using System;
 namespace GerenciadorFC.Contabilidade.Servico.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20180428182425_receitadas")]
-    partial class receitadas
+    [Migration("20180901224928_ecluidor")]
+    partial class ecluidor
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -124,12 +124,26 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
 
                     b.Property<int>("CodigoEmissaoNota");
 
+                    b.Property<int>("CodigoPessoa");
+
+                    b.Property<string>("CodigoServico");
+
+                    b.Property<int>("CodigoTomador");
+
+                    b.Property<DateTime>("DataPrimeiraEmissao");
+
                     b.Property<string>("Descricao")
                         .IsRequired();
+
+                    b.Property<bool>("Excluido")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
 
                     b.Property<string>("Valor")
                         .IsRequired()
                         .HasMaxLength(20);
+
+                    b.Property<bool>("repetir");
 
                     b.HasKey("Codigo");
 
@@ -272,6 +286,38 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
                     b.HasKey("Codigo");
 
                     b.ToTable("TomadorEmissaoNota");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Transacao.HistoricoTransacao", b =>
+                {
+                    b.Property<int>("Codigo")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CodigoHistorico");
+
+                    b.Property<DateTime>("Data");
+
+                    b.Property<string>("Erro");
+
+                    b.Property<string>("Mensagem");
+
+                    b.Property<bool>("Sucesso");
+
+                    b.HasKey("Codigo");
+
+                    b.ToTable("HistoricoTransacao");
+                });
+
+            modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.Transacao.Transacao", b =>
+                {
+                    b.Property<int>("CodigoTransacao")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nome");
+
+                    b.HasKey("CodigoTransacao");
+
+                    b.ToTable("Transacao");
                 });
 
             modelBuilder.Entity("GerenciadorFC.Contabilidade.Dominio.DAS.AnexoContribuinte", b =>

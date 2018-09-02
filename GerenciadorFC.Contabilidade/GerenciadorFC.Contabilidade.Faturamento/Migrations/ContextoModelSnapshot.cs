@@ -123,14 +123,26 @@ namespace GerenciadorFC.Contabilidade.Servico.Migrations
 
                     b.Property<int>("CodigoEmissaoNota");
 
+                    b.Property<int>("CodigoPessoa");
+
+                    b.Property<string>("CodigoServico");
+
+                    b.Property<int>("CodigoTomador");
+
+                    b.Property<DateTime>("DataPrimeiraEmissao");
+
                     b.Property<string>("Descricao")
                         .IsRequired();
 
-                    b.Property<int>("DiaEmissao");
+                    b.Property<bool>("Excluido")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
 
                     b.Property<string>("Valor")
                         .IsRequired()
                         .HasMaxLength(20);
+
+                    b.Property<bool>("repetir");
 
                     b.HasKey("Codigo");
 

@@ -6,3 +6,4 @@ C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Release\net
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Release\netcoreapp2.0\ResolveCaptcha.AssemblyInfo.cs
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Release\netcoreapp2.0\ResolveCaptcha.dll
 C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Release\netcoreapp2.0\ResolveCaptcha.pdb
+C:\Main\Contabilidade\GerenciadorFC.Contabilidade\ResolveCaptcha\obj\Release\netcoreapp2.0\ResolveCaptcha.csprojResolveAssemblyReference.cache
